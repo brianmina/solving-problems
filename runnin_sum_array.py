@@ -11,13 +11,22 @@
 #
 # 1 <= nums.length <= 1000
 # -10^6 <= nums[i] <= 10^6
-x = 10
 
-y = 8
 
-y = y+x
+def number_5(next_list_5: list[int])-> list[int]: # this is my solution
+    """the comments"""
+    new_input = next_list_5
+    result = []
+    i = 0
+    for num in new_input:
+        i += num
+        result.append(i)
+    return result
 
-# class Solution:
+
+
+
+# class Solution: this is karl's solution
 #     def runningSum(self, nums: list[int]) -> list[int]:
 #         # nums = [1, 2, 3, 4]
 #         total = []
