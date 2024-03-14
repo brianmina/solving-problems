@@ -1,4 +1,5 @@
 
+# https://leetcode.com/problems/two-sum/
 
 def twosum(nums: list[int], target: int) -> list[int]:
     """return the indices of the two numbers such that they up to the target."""
