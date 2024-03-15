@@ -11,7 +11,7 @@ def number_5(next_list_5: list[int])-> list[int]: # this is my solution
         result.append(i)
     return result
 
-
+# I used the  += operation so that I can add a sum in every loop.
 
 
 # class Solution: this is karl's solution

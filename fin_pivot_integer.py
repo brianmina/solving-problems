@@ -11,3 +11,5 @@ class Solution:
             return x
         else:
             return -1
+
+# I used the standar arimethic formula an then I took the square root   and compare if it is perfect or imperfect.

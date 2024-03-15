@@ -13,4 +13,4 @@ for i in bank_accounts:
 print(riches)
 print(max(riches))
 
-
+# I used the sum() method in order to get the total of each list inside the list.

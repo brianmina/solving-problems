@@ -14,3 +14,6 @@ total = 9
 
 d = twosum(input_list, total)
 print(d)
+
+# using  "i+1" inside the second loop allows me to work with index[1] , since I already got the index[0] in
+# the previous loop.
